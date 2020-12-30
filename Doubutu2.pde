@@ -21,7 +21,3 @@ void mouseReleased() {
   int y = mouseY/SQUARESIZE;
   board.select(x, y);
 }
-  boolean isInThisArea(int x, int y) {
-    if (x>=this.posX && x<this.posX+this.yoko && y>=this.posY && y<this.posY+this.tate) return true;
-    else return false;
-  }
